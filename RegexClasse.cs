@@ -34,4 +34,9 @@ public class RegexClasse
             }
         }
     }
+
+    public void reconhecerEmail(string email)
+    {
+
+    }
 }
