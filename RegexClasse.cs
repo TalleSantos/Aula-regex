@@ -27,7 +27,7 @@ public class RegexClasse
         Regex regex = new Regex(@"[A-Z][a-z]*");
         if (regex.IsMatch(nome))
         {
-            Console.WriteLine("Nome válido");
+            Console.WriteLine("Nome válido!!");
             foreach (Match match in regex.Matches(nome))
             {
                 Console.WriteLine(match.Value);
